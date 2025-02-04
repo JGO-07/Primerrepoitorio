@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <title>Registro</title></head>
+<body>
+    <table border="2" width ="80%" heigth ="100%">
+        <tr>
+            <td rowspan="10" width="10%" >
+                <h3>Navegación</h3>
+                <ul>
+                    <li><a href="tarea1.html">Home</a></li>
+                    <li><a href="registro.html">Registro</a></li>
+                    <li><a href="more.html">Acerca del tema</a></li>
+                </ul>
+            </td>
+        <tr>
+            <tr>
+                <th colspan="2"><h2>REGISTRO</h2></th>
+            </tr>
+            <tr>
+                <td colspan="2">¿Te interesa inscribirte a la ayuda para los animales?</td>
+            </tr>
+            <tr>
+                <td width ="10%"><label for="nombre">Nombre:</label></td>
+                <td><input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" placeholder="Escribe tu correo"></td>
+            </tr>
+            <tr>
+                <td><label for="nivel">Nivel de estudios:</label></td>
+                <td>
+                    <select id="nivel" name="nivel">
+                        <option value="profesor">Profesor</option>
+                        <option value="estudiante">Estudiante</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="comentario">Comentario:</label></td>
+                <td><textarea id="comentario" name="comentario" rows="4" cols="30" placeholder="Escribe aquí tu comentario sin anónimo"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <button type="submit">Enviar solicitud</button>
+                </td>
+            </tr>
+    </table>
+</body>
+</html>
