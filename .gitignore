@@ -1,0 +1,4 @@
+#ignorar los .log
+*.log
+#ignorar apartir de la carpeta modules
+modules/
